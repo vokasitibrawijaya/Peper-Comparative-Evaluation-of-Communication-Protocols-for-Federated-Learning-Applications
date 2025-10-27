@@ -1,0 +1,882 @@
+{
+  "HTTP/HTTPS": {
+    "protocol_name": "HTTP/HTTPS",
+    "total_latency": 18.35,
+    "total_overhead": 422250000,
+    "total_data_sent": 3237250000,
+    "successful_rounds": 5,
+    "failed_transmissions": 97,
+    "round_details": [
+      {
+        "round": 1,
+        "latency": 1.2500000000000002,
+        "overhead": 43500000,
+        "data_sent": 333500000,
+        "failures": 2,
+        "network_condition": 1.0
+      },
+      {
+        "round": 2,
+        "latency": 1.2500000000000002,
+        "overhead": 44250000,
+        "data_sent": 339250000,
+        "failures": 1,
+        "network_condition": 1.0
+      },
+      {
+        "round": 3,
+        "latency": 1.2500000000000002,
+        "overhead": 43500000,
+        "data_sent": 333500000,
+        "failures": 2,
+        "network_condition": 1.0
+      },
+      {
+        "round": 4,
+        "latency": 1.2500000000000002,
+        "overhead": 44250000,
+        "data_sent": 339250000,
+        "failures": 1,
+        "network_condition": 1.0
+      },
+      {
+        "round": 5,
+        "latency": 1.2500000000000002,
+        "overhead": 42750000,
+        "data_sent": 327750000,
+        "failures": 3,
+        "network_condition": 1.0
+      },
+      {
+        "round": 6,
+        "latency": 1.8250000000000002,
+        "overhead": 34500000,
+        "data_sent": 264500000,
+        "failures": 14,
+        "network_condition": 1.5
+      },
+      {
+        "round": 7,
+        "latency": 1.8250000000000002,
+        "overhead": 35250000,
+        "data_sent": 270250000,
+        "failures": 13,
+        "network_condition": 1.5
+      },
+      {
+        "round": 8,
+        "latency": 0.9125000000000001,
+        "overhead": 14250000,
+        "data_sent": 109250000,
+        "failures": 11,
+        "network_condition": 1.5
+      },
+      {
+        "round": 9,
+        "latency": 0.9125000000000001,
+        "overhead": 12000000,
+        "data_sent": 92000000,
+        "failures": 14,
+        "network_condition": 1.5
+      },
+      {
+        "round": 10,
+        "latency": 1.8250000000000002,
+        "overhead": 39000000,
+        "data_sent": 299000000,
+        "failures": 8,
+        "network_condition": 1.5
+      },
+      {
+        "round": 11,
+        "latency": 2.4000000000000004,
+        "overhead": 33750000,
+        "data_sent": 258750000,
+        "failures": 15,
+        "network_condition": 2.0
+      },
+      {
+        "round": 12,
+        "latency": 2.4000000000000004,
+        "overhead": 35250000,
+        "data_sent": 270250000,
+        "failures": 13,
+        "network_condition": 2.0
+      }
+    ],
+    "avg_round_latency": 1.5291666666666668,
+    "avg_overhead_ratio": 0.13043478260869565,
+    "success_rate": 0.4166666666666667,
+    "total_data_gb": 3.014924004673958
+  },
+  "MQTT": {
+    "protocol_name": "MQTT",
+    "total_latency": 14.305000000000001,
+    "total_overhead": 73800000,
+    "total_data_sent": 2533800000,
+    "successful_rounds": 5,
+    "failed_transmissions": 108,
+    "round_details": [
+      {
+        "round": 1,
+        "latency": 0.535,
+        "overhead": 4050000,
+        "data_sent": 139050000,
+        "failures": 3,
+        "network_condition": 1.0
+      },
+      {
+        "round": 2,
+        "latency": 1.07,
+        "overhead": 8400000,
+        "data_sent": 288400000,
+        "failures": 4,
+        "network_condition": 1.0
+      },
+      {
+        "round": 3,
+        "latency": 1.07,
+        "overhead": 8550000,
+        "data_sent": 293550000,
+        "failures": 3,
+        "network_condition": 1.0
+      },
+      {
+        "round": 4,
+        "latency": 1.07,
+        "overhead": 8850000,
+        "data_sent": 303850000,
+        "failures": 1,
+        "network_condition": 1.0
+      },
+      {
+        "round": 5,
+        "latency": 1.07,
+        "overhead": 8550000,
+        "data_sent": 293550000,
+        "failures": 3,
+        "network_condition": 1.0
+      },
+      {
+        "round": 6,
+        "latency": 0.7925,
+        "overhead": 3150000,
+        "data_sent": 108150000,
+        "failures": 9,
+        "network_condition": 1.5
+      },
+      {
+        "round": 7,
+        "latency": 1.585,
+        "overhead": 6900000,
+        "data_sent": 236900000,
+        "failures": 14,
+        "network_condition": 1.5
+      },
+      {
+        "round": 8,
+        "latency": 1.585,
+        "overhead": 7200000,
+        "data_sent": 247200000,
+        "failures": 12,
+        "network_condition": 1.5
+      },
+      {
+        "round": 9,
+        "latency": 0.7925,
+        "overhead": 2850000,
+        "data_sent": 97850000,
+        "failures": 11,
+        "network_condition": 1.5
+      },
+      {
+        "round": 10,
+        "latency": 1.585,
+        "overhead": 6900000,
+        "data_sent": 236900000,
+        "failures": 14,
+        "network_condition": 1.5
+      },
+      {
+        "round": 11,
+        "latency": 1.05,
+        "overhead": 1500000,
+        "data_sent": 51500000,
+        "failures": 20,
+        "network_condition": 2.0
+      },
+      {
+        "round": 12,
+        "latency": 2.1,
+        "overhead": 6900000,
+        "data_sent": 236900000,
+        "failures": 14,
+        "network_condition": 2.0
+      }
+    ],
+    "avg_round_latency": 1.1920833333333334,
+    "avg_overhead_ratio": 0.02912621359223301,
+    "success_rate": 0.4166666666666667,
+    "total_data_gb": 2.3597851395606995
+  },
+  "AMQP": {
+    "protocol_name": "AMQP",
+    "total_latency": 15.75,
+    "total_overhead": 219200000,
+    "total_data_sent": 2959200000,
+    "successful_rounds": 5,
+    "failed_transmissions": 82,
+    "round_details": [
+      {
+        "round": 1,
+        "latency": 1.1400000000000001,
+        "overhead": 24000000,
+        "data_sent": 324000000,
+        "failures": 0,
+        "network_condition": 1.0
+      },
+      {
+        "round": 2,
+        "latency": 1.1400000000000001,
+        "overhead": 24000000,
+        "data_sent": 324000000,
+        "failures": 0,
+        "network_condition": 1.0
+      },
+      {
+        "round": 3,
+        "latency": 1.1400000000000001,
+        "overhead": 24000000,
+        "data_sent": 324000000,
+        "failures": 0,
+        "network_condition": 1.0
+      },
+      {
+        "round": 4,
+        "latency": 1.1400000000000001,
+        "overhead": 23600000,
+        "data_sent": 318600000,
+        "failures": 1,
+        "network_condition": 1.0
+      },
+      {
+        "round": 5,
+        "latency": 1.1400000000000001,
+        "overhead": 24000000,
+        "data_sent": 324000000,
+        "failures": 0,
+        "network_condition": 1.0
+      },
+      {
+        "round": 6,
+        "latency": 1.6800000000000002,
+        "overhead": 20400000,
+        "data_sent": 275400000,
+        "failures": 9,
+        "network_condition": 1.5
+      },
+      {
+        "round": 7,
+        "latency": 0.8400000000000001,
+        "overhead": 8000000,
+        "data_sent": 108000000,
+        "failures": 10,
+        "network_condition": 1.5
+      },
+      {
+        "round": 8,
+        "latency": 1.6800000000000002,
+        "overhead": 19200000,
+        "data_sent": 259200000,
+        "failures": 12,
+        "network_condition": 1.5
+      },
+      {
+        "round": 9,
+        "latency": 0.8400000000000001,
+        "overhead": 6400000,
+        "data_sent": 86400000,
+        "failures": 14,
+        "network_condition": 1.5
+      },
+      {
+        "round": 10,
+        "latency": 1.6800000000000002,
+        "overhead": 20400000,
+        "data_sent": 275400000,
+        "failures": 9,
+        "network_condition": 1.5
+      },
+      {
+        "round": 11,
+        "latency": 1.11,
+        "overhead": 7600000,
+        "data_sent": 102600000,
+        "failures": 11,
+        "network_condition": 2.0
+      },
+      {
+        "round": 12,
+        "latency": 2.22,
+        "overhead": 17600000,
+        "data_sent": 237600000,
+        "failures": 16,
+        "network_condition": 2.0
+      }
+    ],
+    "avg_round_latency": 1.3125,
+    "avg_overhead_ratio": 0.07407407407407407,
+    "success_rate": 0.4166666666666667,
+    "total_data_gb": 2.755969762802124
+  },
+  "XMPP": {
+    "protocol_name": "XMPP",
+    "total_latency": 16.384999999999998,
+    "total_overhead": 585000000,
+    "total_data_sent": 2925000000,
+    "successful_rounds": 5,
+    "failed_transmissions": 102,
+    "round_details": [
+      {
+        "round": 1,
+        "latency": 1.33,
+        "overhead": 70000000,
+        "data_sent": 350000000,
+        "failures": 4,
+        "network_condition": 1.0
+      },
+      {
+        "round": 2,
+        "latency": 1.33,
+        "overhead": 73750000,
+        "data_sent": 368750000,
+        "failures": 1,
+        "network_condition": 1.0
+      },
+      {
+        "round": 3,
+        "latency": 1.33,
+        "overhead": 68750000,
+        "data_sent": 343750000,
+        "failures": 5,
+        "network_condition": 1.0
+      },
+      {
+        "round": 4,
+        "latency": 1.33,
+        "overhead": 72500000,
+        "data_sent": 362500000,
+        "failures": 2,
+        "network_condition": 1.0
+      },
+      {
+        "round": 5,
+        "latency": 1.33,
+        "overhead": 73750000,
+        "data_sent": 368750000,
+        "failures": 1,
+        "network_condition": 1.0
+      },
+      {
+        "round": 6,
+        "latency": 0.9775,
+        "overhead": 20000000,
+        "data_sent": 100000000,
+        "failures": 14,
+        "network_condition": 1.5
+      },
+      {
+        "round": 7,
+        "latency": 0.9775,
+        "overhead": 22500000,
+        "data_sent": 112500000,
+        "failures": 12,
+        "network_condition": 1.5
+      },
+      {
+        "round": 8,
+        "latency": 1.955,
+        "overhead": 62500000,
+        "data_sent": 312500000,
+        "failures": 10,
+        "network_condition": 1.5
+      },
+      {
+        "round": 9,
+        "latency": 0.9775,
+        "overhead": 22500000,
+        "data_sent": 112500000,
+        "failures": 12,
+        "network_condition": 1.5
+      },
+      {
+        "round": 10,
+        "latency": 0.9775,
+        "overhead": 21250000,
+        "data_sent": 106250000,
+        "failures": 13,
+        "network_condition": 1.5
+      },
+      {
+        "round": 11,
+        "latency": 1.29,
+        "overhead": 22500000,
+        "data_sent": 112500000,
+        "failures": 12,
+        "network_condition": 2.0
+      },
+      {
+        "round": 12,
+        "latency": 2.58,
+        "overhead": 55000000,
+        "data_sent": 275000000,
+        "failures": 16,
+        "network_condition": 2.0
+      }
+    ],
+    "avg_round_latency": 1.3654166666666665,
+    "avg_overhead_ratio": 0.2,
+    "success_rate": 0.4166666666666667,
+    "total_data_gb": 2.7241185307502747
+  },
+  "WebSocket": {
+    "protocol_name": "WebSocket",
+    "total_latency": 14.837500000000002,
+    "total_overhead": 124000000,
+    "total_data_sent": 2604000000,
+    "successful_rounds": 5,
+    "failed_transmissions": 104,
+    "round_details": [
+      {
+        "round": 1,
+        "latency": 1.09,
+        "overhead": 13750000,
+        "data_sent": 288750000,
+        "failures": 5,
+        "network_condition": 1.0
+      },
+      {
+        "round": 2,
+        "latency": 0.545,
+        "overhead": 7500000,
+        "data_sent": 157500000,
+        "failures": 0,
+        "network_condition": 1.0
+      },
+      {
+        "round": 3,
+        "latency": 1.09,
+        "overhead": 15000000,
+        "data_sent": 315000000,
+        "failures": 0,
+        "network_condition": 1.0
+      },
+      {
+        "round": 4,
+        "latency": 1.09,
+        "overhead": 14000000,
+        "data_sent": 294000000,
+        "failures": 4,
+        "network_condition": 1.0
+      },
+      {
+        "round": 5,
+        "latency": 0.545,
+        "overhead": 7500000,
+        "data_sent": 157500000,
+        "failures": 0,
+        "network_condition": 1.0
+      },
+      {
+        "round": 6,
+        "latency": 1.6150000000000002,
+        "overhead": 11750000,
+        "data_sent": 246750000,
+        "failures": 13,
+        "network_condition": 1.5
+      },
+      {
+        "round": 7,
+        "latency": 1.6150000000000002,
+        "overhead": 11750000,
+        "data_sent": 246750000,
+        "failures": 13,
+        "network_condition": 1.5
+      },
+      {
+        "round": 8,
+        "latency": 1.6150000000000002,
+        "overhead": 11250000,
+        "data_sent": 236250000,
+        "failures": 15,
+        "network_condition": 1.5
+      },
+      {
+        "round": 9,
+        "latency": 1.6150000000000002,
+        "overhead": 12750000,
+        "data_sent": 267750000,
+        "failures": 9,
+        "network_condition": 1.5
+      },
+      {
+        "round": 10,
+        "latency": 0.8075000000000001,
+        "overhead": 5250000,
+        "data_sent": 110250000,
+        "failures": 9,
+        "network_condition": 1.5
+      },
+      {
+        "round": 11,
+        "latency": 1.07,
+        "overhead": 2250000,
+        "data_sent": 47250000,
+        "failures": 21,
+        "network_condition": 2.0
+      },
+      {
+        "round": 12,
+        "latency": 2.14,
+        "overhead": 11250000,
+        "data_sent": 236250000,
+        "failures": 15,
+        "network_condition": 2.0
+      }
+    ],
+    "avg_round_latency": 1.2364583333333334,
+    "avg_overhead_ratio": 0.047619047619047616,
+    "success_rate": 0.4166666666666667,
+    "total_data_gb": 2.425163984298706
+  },
+  "gRPC": {
+    "protocol_name": "gRPC",
+    "total_latency": 15.100000000000005,
+    "total_overhead": 163500000,
+    "total_data_sent": 2888500000,
+    "successful_rounds": 5,
+    "failed_transmissions": 85,
+    "round_details": [
+      {
+        "round": 1,
+        "latency": 1.11,
+        "overhead": 17100000,
+        "data_sent": 302100000,
+        "failures": 3,
+        "network_condition": 1.0
+      },
+      {
+        "round": 2,
+        "latency": 1.11,
+        "overhead": 17700000,
+        "data_sent": 312700000,
+        "failures": 1,
+        "network_condition": 1.0
+      },
+      {
+        "round": 3,
+        "latency": 1.11,
+        "overhead": 17700000,
+        "data_sent": 312700000,
+        "failures": 1,
+        "network_condition": 1.0
+      },
+      {
+        "round": 4,
+        "latency": 1.11,
+        "overhead": 16800000,
+        "data_sent": 296800000,
+        "failures": 4,
+        "network_condition": 1.0
+      },
+      {
+        "round": 5,
+        "latency": 1.11,
+        "overhead": 17700000,
+        "data_sent": 312700000,
+        "failures": 1,
+        "network_condition": 1.0
+      },
+      {
+        "round": 6,
+        "latency": 0.8200000000000001,
+        "overhead": 6300000,
+        "data_sent": 111300000,
+        "failures": 9,
+        "network_condition": 1.5
+      },
+      {
+        "round": 7,
+        "latency": 1.6400000000000001,
+        "overhead": 14400000,
+        "data_sent": 254400000,
+        "failures": 12,
+        "network_condition": 1.5
+      },
+      {
+        "round": 8,
+        "latency": 1.6400000000000001,
+        "overhead": 15900000,
+        "data_sent": 280900000,
+        "failures": 7,
+        "network_condition": 1.5
+      },
+      {
+        "round": 9,
+        "latency": 1.6400000000000001,
+        "overhead": 15300000,
+        "data_sent": 270300000,
+        "failures": 9,
+        "network_condition": 1.5
+      },
+      {
+        "round": 10,
+        "latency": 1.6400000000000001,
+        "overhead": 15000000,
+        "data_sent": 265000000,
+        "failures": 10,
+        "network_condition": 1.5
+      },
+      {
+        "round": 11,
+        "latency": 1.085,
+        "overhead": 4500000,
+        "data_sent": 79500000,
+        "failures": 15,
+        "network_condition": 2.0
+      },
+      {
+        "round": 12,
+        "latency": 1.085,
+        "overhead": 5100000,
+        "data_sent": 90100000,
+        "failures": 13,
+        "network_condition": 2.0
+      }
+    ],
+    "avg_round_latency": 1.2583333333333337,
+    "avg_overhead_ratio": 0.05660377358490566,
+    "success_rate": 0.4166666666666667,
+    "total_data_gb": 2.6901252567768097
+  },
+  "CoAP": {
+    "protocol_name": "CoAP",
+    "total_latency": 13.815000000000001,
+    "total_overhead": 48500000,
+    "total_data_sent": 2473500000,
+    "successful_rounds": 3,
+    "failed_transmissions": 115,
+    "round_details": [
+      {
+        "round": 1,
+        "latency": 1.05,
+        "overhead": 5700000,
+        "data_sent": 290700000,
+        "failures": 3,
+        "network_condition": 1.0
+      },
+      {
+        "round": 2,
+        "latency": 1.05,
+        "overhead": 5400000,
+        "data_sent": 275400000,
+        "failures": 6,
+        "network_condition": 1.0
+      },
+      {
+        "round": 3,
+        "latency": 1.05,
+        "overhead": 5600000,
+        "data_sent": 285600000,
+        "failures": 4,
+        "network_condition": 1.0
+      },
+      {
+        "round": 4,
+        "latency": 1.05,
+        "overhead": 5700000,
+        "data_sent": 290700000,
+        "failures": 3,
+        "network_condition": 1.0
+      },
+      {
+        "round": 5,
+        "latency": 0.525,
+        "overhead": 2400000,
+        "data_sent": 122400000,
+        "failures": 6,
+        "network_condition": 1.0
+      },
+      {
+        "round": 6,
+        "latency": 1.56,
+        "overhead": 4800000,
+        "data_sent": 244800000,
+        "failures": 12,
+        "network_condition": 1.5
+      },
+      {
+        "round": 7,
+        "latency": 0.78,
+        "overhead": 1700000,
+        "data_sent": 86700000,
+        "failures": 13,
+        "network_condition": 1.5
+      },
+      {
+        "round": 8,
+        "latency": 1.56,
+        "overhead": 4700000,
+        "data_sent": 239700000,
+        "failures": 13,
+        "network_condition": 1.5
+      },
+      {
+        "round": 9,
+        "latency": 1.56,
+        "overhead": 5100000,
+        "data_sent": 260100000,
+        "failures": 9,
+        "network_condition": 1.5
+      },
+      {
+        "round": 10,
+        "latency": 1.56,
+        "overhead": 5000000,
+        "data_sent": 255000000,
+        "failures": 10,
+        "network_condition": 1.5
+      },
+      {
+        "round": 11,
+        "latency": 1.035,
+        "overhead": 900000,
+        "data_sent": 45900000,
+        "failures": 21,
+        "network_condition": 2.0
+      },
+      {
+        "round": 12,
+        "latency": 1.035,
+        "overhead": 1500000,
+        "data_sent": 76500000,
+        "failures": 15,
+        "network_condition": 2.0
+      }
+    ],
+    "avg_round_latency": 1.15125,
+    "avg_overhead_ratio": 0.0196078431372549,
+    "success_rate": 0.25,
+    "total_data_gb": 2.303626388311386
+  },
+  "Apache Kafka": {
+    "protocol_name": "Apache Kafka",
+    "total_latency": 17.36,
+    "total_overhead": 117000000,
+    "total_data_sent": 3042000000,
+    "successful_rounds": 5,
+    "failed_transmissions": 75,
+    "round_details": [
+      {
+        "round": 1,
+        "latency": 1.2,
+        "overhead": 12000000,
+        "data_sent": 312000000,
+        "failures": 0,
+        "network_condition": 1.0
+      },
+      {
+        "round": 2,
+        "latency": 1.2,
+        "overhead": 12000000,
+        "data_sent": 312000000,
+        "failures": 0,
+        "network_condition": 1.0
+      },
+      {
+        "round": 3,
+        "latency": 1.2,
+        "overhead": 12000000,
+        "data_sent": 312000000,
+        "failures": 0,
+        "network_condition": 1.0
+      },
+      {
+        "round": 4,
+        "latency": 1.2,
+        "overhead": 12000000,
+        "data_sent": 312000000,
+        "failures": 0,
+        "network_condition": 1.0
+      },
+      {
+        "round": 5,
+        "latency": 1.2,
+        "overhead": 12000000,
+        "data_sent": 312000000,
+        "failures": 0,
+        "network_condition": 1.0
+      },
+      {
+        "round": 6,
+        "latency": 0.86,
+        "overhead": 3600000,
+        "data_sent": 93600000,
+        "failures": 12,
+        "network_condition": 1.5
+      },
+      {
+        "round": 7,
+        "latency": 1.72,
+        "overhead": 10200000,
+        "data_sent": 265200000,
+        "failures": 9,
+        "network_condition": 1.5
+      },
+      {
+        "round": 8,
+        "latency": 1.72,
+        "overhead": 10000000,
+        "data_sent": 260000000,
+        "failures": 10,
+        "network_condition": 1.5
+      },
+      {
+        "round": 9,
+        "latency": 1.72,
+        "overhead": 9800000,
+        "data_sent": 254800000,
+        "failures": 11,
+        "network_condition": 1.5
+      },
+      {
+        "round": 10,
+        "latency": 0.86,
+        "overhead": 4000000,
+        "data_sent": 104000000,
+        "failures": 10,
+        "network_condition": 1.5
+      },
+      {
+        "round": 11,
+        "latency": 2.24,
+        "overhead": 9600000,
+        "data_sent": 249600000,
+        "failures": 12,
+        "network_condition": 2.0
+      },
+      {
+        "round": 12,
+        "latency": 2.24,
+        "overhead": 9800000,
+        "data_sent": 254800000,
+        "failures": 11,
+        "network_condition": 2.0
+      }
+    ],
+    "avg_round_latency": 1.4466666666666665,
+    "avg_overhead_ratio": 0.038461538461538464,
+    "success_rate": 0.4166666666666667,
+    "total_data_gb": 2.8330832719802856
+  }
+}

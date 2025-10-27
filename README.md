@@ -1,25 +1,19 @@
-# Peper-Comparative-Evaluation-of-Communication-Protocols-for-Federated-Learning-Applications
-Comparative Evaluation of Communication Protocols for Federated Learning Applications
+# Simulasi Perbandingan Protokol Aplikasi untuk Federated Learning
 
+## 📊 Ringkasan Simulasi
 
+**Tanggal Simulasi:** 30 September 2025  
+**Direktori:** `/home/mokoraden/federated_learning/experiments/SIMULASI_EXPERIMENT/PerbandinganProtokol`
 
+### 🎯 Parameter Simulasi
+- **Jumlah Clients:** 30
+- **Ukuran Model:** 4.8 MB
+- **Jumlah Rounds:** 12
+- **Kondisi Jaringan:** Good (1-5) → Moderate (6-10) → Poor (11-12)
 
-# Application Protocol Comparison Simulation for Federated Learning
+## 🏆 Hasil Ranking Protokol
 
-## 📊 Simulation Summary
-
-**Simulation Date:** September 30, 2025  
-**Directory:** `/home/mokoraden/federated_learning/experiments/SIMULASI_EXPERIMENT/PerbandinganProtokol`
-
-### 🎯 Simulation Parameters
-- **Number of Clients:** 30
-- **Model Size:** 4.8 MB
-- **Number of Rounds:** 12
-- **Network Conditions:** Good (1-5) → Moderate (6-10) → Poor (11-12)
-
-## 🏆 Protocol Ranking Results
-
-| Rank | Protocol | Score | Latency | Success Rate | Overhead |
+| Rank | Protokol | Score | Latency | Success Rate | Overhead |
 |------|----------|-------|---------|--------------|----------|
 | 1 | **CoAP** | 11.629 | 1.151s | 25.0% | 2.0% |
 | 2 | **MQTT** | 8.936 | 1.192s | 41.7% | 2.9% |
@@ -30,83 +24,83 @@ Comparative Evaluation of Communication Protocols for Federated Learning Applica
 | 7 | **HTTP/HTTPS** | 2.729 | 1.529s | 41.7% | 13.0% |
 | 8 | **XMPP** | 1.969 | 1.365s | 41.7% | 20.0% |
 
-## 🎯 Category Winners
+## 🎯 Pemenang Kategori
 
-- ⚡ **Lowest Latency:** CoAP (1.151s)
-- 🛡️ **Highest Reliability:** HTTP/HTTPS, MQTT, Apache Kafka, WebSocket, gRPC, AMQP, XMPP (41.7%)
-- 🗜️ **Highest Efficiency:** CoAP (2.0% overhead)
+- ⚡ **Latency Terendah:** CoAP (1.151s)
+- 🛡️ **Reliability Tertinggi:** HTTP/HTTPS, MQTT, Apache Kafka, WebSocket, gRPC, AMQP, XMPP (41.7%)
+- 🗜️ **Efisiensi Tertinggi:** CoAP (2.0% overhead)
 
-## 📈 Generated Visualizations
+## 📈 Visualisasi yang Dihasilkan
 
-### 📊 Main Charts
-1. **`protocol_comparison_charts.png`** - Comprehensive comparison of all metrics
-2. **`network_impact_analysis.png`** - Network conditions impact on performance
+### 📊 Grafik Utama
+1. **`protocol_comparison_charts.png`** - Perbandingan komprehensif semua metrik
+2. **`network_impact_analysis.png`** - Dampak kondisi jaringan pada performa
 
-### 🔥 Advanced Analysis
-3. **`protocol_heatmap.png`** - Protocol performance heatmap
-4. **`protocol_radar_chart.png`** - Radar chart for top 4 protocols
-5. **`correlation_matrix.png`** - Correlation matrix between metrics
-6. **`performance_trends.png`** - Performance trends across rounds
+### 🔥 Analisis Lanjutan
+3. **`protocol_heatmap.png`** - Heatmap performa protokol
+4. **`protocol_radar_chart.png`** - Radar chart untuk top 4 protokol
+5. **`correlation_matrix.png`** - Matriks korelasi antar metrik
+6. **`performance_trends.png`** - Tren performa sepanjang rounds
 
-## 📋 Reports and Data
+## 📋 Laporan dan Data
 
-### 📄 Text Reports
-- **`protocol_comparison_report.txt`** - Main simulation report
-- **`comprehensive_analysis_report.txt`** - In-depth analysis report
+### 📄 Laporan Tekstual
+- **`protocol_comparison_report.txt`** - Laporan utama simulasi
+- **`comprehensive_analysis_report.txt`** - Laporan analisis mendalam
 
-### 📊 Structured Data
-- **`protocol_comparison_results.json`** - Complete simulation results data
-- **`protocol_comparison_matrix.csv`** - Comparison matrix in CSV format
-- **`statistical_summary.csv`** - Statistical summary
+### 📊 Data Terstruktur
+- **`protocol_comparison_results.json`** - Data lengkap hasil simulasi
+- **`protocol_comparison_matrix.csv`** - Matriks perbandingan dalam format CSV
+- **`statistical_summary.csv`** - Ringkasan statistik
 
-## 🔬 Available Scripts
+## 🔬 Script yang Tersedia
 
-1. **`protocol_comparison_simulation.py`** - Main simulation script
-2. **`advanced_protocol_analysis.py`** - Advanced analysis script
+1. **`protocol_comparison_simulation.py`** - Script simulasi utama
+2. **`advanced_protocol_analysis.py`** - Script analisis lanjutan
 
-## 💡 Usage Recommendations
+## 💡 Rekomendasi Penggunaan
 
-### 🏃 Real-time FL (Low Latency)
-- **CoAP** - Ideal for IoT with lowest latency
-- **MQTT** - Balance between speed and reliability
-- **WebSocket** - Suitable for real-time web applications
+### 🏃 Real-time FL (Latency Rendah)
+- **CoAP** - Ideal untuk IoT dengan latency terendah
+- **MQTT** - Balance antara speed dan reliability
+- **WebSocket** - Cocok untuk aplikasi web real-time
 
 ### 🔒 High-Reliability FL
-- **Apache Kafka** - Excellent for large-scale with high reliability
-- **AMQP** - Message queuing with strong guarantees
-- **gRPC** - Modern RPC with good reliability
+- **Apache Kafka** - Excellent untuk large-scale dengan reliability tinggi
+- **AMQP** - Message queuing dengan guarantees kuat
+- **gRPC** - Modern RPC dengan good reliability
 
 ### 📱 IoT/Edge FL
-- **CoAP** - Specifically designed for constrained devices
-- **MQTT** - Lightweight with QoS levels
+- **CoAP** - Dirancang khusus untuk constrained devices
+- **MQTT** - Lightweight dengan QoS levels
 
 ### 🌐 Web-based FL
-- **WebSocket** - Full-duplex communication for web
-- **HTTP/HTTPS** - Standard web protocol with widespread support
+- **WebSocket** - Full-duplex communication untuk web
+- **HTTP/HTTPS** - Standard web protocol dengan widespread support
 
 ### 📡 Large-scale FL  
-- **Apache Kafka** - Excellent horizontal scaling
+- **Apache Kafka** - Horizontal scaling excellent
 - **MQTT** - Scalable message broker
-- **gRPC** - High-performance with good scaling
+- **gRPC** - High-performance dengan good scaling
 
-## 🔍 Technical Insights
+## 🔍 Insights Teknis
 
-1. **Lightweight Protocols** (CoAP, MQTT) excel in low-latency scenarios
-2. **Message Queue Protocols** (Kafka, AMQP) provide superior reliability
-3. **Binary Protocols** (gRPC) offer good balance between speed and features
-4. **Text-based Protocols** (HTTP, XMPP) have high overhead but are easier to debug
-5. **Network conditions** significantly affect all protocols
+1. **Protokol Lightweight** (CoAP, MQTT) unggul dalam skenario low-latency
+2. **Message Queue Protocols** (Kafka, AMQP) memberikan reliability superior
+3. **Binary Protocols** (gRPC) menawarkan balance yang baik antara speed dan features
+4. **Text-based Protocols** (HTTP, XMPP) memiliki overhead tinggi tapi mudah debugging
+5. **Kondisi jaringan** secara signifikan mempengaruhi semua protokol
 
-## 🚀 How to Re-run
+## 🚀 Cara Menjalankan Ulang
 
 ```bash
-# Main simulation
+# Simulasi utama
 cd /home/mokoraden/federated_learning/experiments/SIMULASI_EXPERIMENT/PerbandinganProtokol
 python3 protocol_comparison_simulation.py
 
-# Advanced analysis
+# Analisis lanjutan
 python3 advanced_protocol_analysis.py
 ```
 
-***
-*This simulation provides comprehensive guidance for selecting the appropriate communication protocol in Federated Learning implementations based on specific application requirements.*
+---
+*Simulasi ini memberikan panduan komprehensif untuk memilih protokol komunikasi yang tepat dalam implementasi Federated Learning berdasarkan kebutuhan spesifik aplikasi.*

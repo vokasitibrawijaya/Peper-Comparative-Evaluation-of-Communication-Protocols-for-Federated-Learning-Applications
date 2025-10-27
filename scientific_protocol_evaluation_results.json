@@ -1,0 +1,1089 @@
+{
+  "protocol_statistics": {
+    "HTTP/HTTPS": {
+      "latency": {
+        "mean": 0.46710873358610266,
+        "std": 0.11598262677630865,
+        "median": 0.46124773345242354,
+        "ci_lower": 0.4578095715171665,
+        "ci_upper": 0.4764078956550388,
+        "sample_size": 600
+      },
+      "success_rate": {
+        "mean": 0.9305666666666668,
+        "std": 0.05201462702544881,
+        "median": 0.94,
+        "ci_lower": 0.9263962796000089,
+        "ci_upper": 0.9347370537333246,
+        "sample_size": 600
+      },
+      "throughput": {
+        "mean": 22628.74682649442,
+        "std": 7469.771426400332,
+        "median": 21272.931112958082,
+        "ci_lower": 22029.84148142084,
+        "ci_upper": 23227.652171567996,
+        "sample_size": 600
+      },
+      "overhead": {
+        "mean": 7.62939453125e-06,
+        "std": 0.0,
+        "median": 7.62939453125e-06,
+        "ci_lower": 7.62939453125e-06,
+        "ci_upper": 7.62939453125e-06,
+        "sample_size": 600
+      },
+      "protocol_config": {
+        "overhead_bytes": 200,
+        "latency_base_ms": 2.0,
+        "reliability": 0.98,
+        "throughput_factor": 1.0,
+        "source": "RFC 7540, Google HTTP/2 study 2021"
+      }
+    },
+    "MQTT": {
+      "latency": {
+        "mean": 0.4658518515512826,
+        "std": 0.11597340424269144,
+        "median": 0.4599802360531894,
+        "ci_lower": 0.45655342891925327,
+        "ci_upper": 0.47515027418331196,
+        "sample_size": 600
+      },
+      "success_rate": {
+        "mean": 0.9022000000000001,
+        "std": 0.05653748737901151,
+        "median": 0.9,
+        "ci_lower": 0.8976669826617926,
+        "ci_upper": 0.9067330173382077,
+        "sample_size": 600
+      },
+      "throughput": {
+        "mean": 17614.932904871417,
+        "std": 5889.139089241655,
+        "median": 16422.54446544902,
+        "ci_lower": 17142.75823216818,
+        "ci_upper": 18087.107577574654,
+        "sample_size": 600
+      },
+      "overhead": {
+        "mean": 1.9073486328125e-07,
+        "std": 0.0,
+        "median": 1.9073486328125e-07,
+        "ci_lower": 1.9073486328125e-07,
+        "ci_upper": 1.9073486328125e-07,
+        "sample_size": 600
+      },
+      "protocol_config": {
+        "overhead_bytes": 5,
+        "latency_base_ms": 1.0,
+        "reliability": 0.95,
+        "throughput_factor": 0.8,
+        "source": "MQTT 5.0 Spec, Eclipse Mosquitto 2022"
+      }
+    },
+    "AMQP": {
+      "latency": {
+        "mean": 0.46647861774329763,
+        "std": 0.1159775937155213,
+        "median": 0.4606123311323539,
+        "ci_lower": 0.45717985921107435,
+        "ci_upper": 0.4757773762755209,
+        "sample_size": 600
+      },
+      "success_rate": {
+        "mean": 0.9394666666666668,
+        "std": 0.05056986329833454,
+        "median": 0.94,
+        "ci_lower": 0.935412116707886,
+        "ci_upper": 0.9435212166254475,
+        "sample_size": 600
+      },
+      "throughput": {
+        "mean": 20586.239125090477,
+        "std": 6759.8925605274135,
+        "median": 19279.77546222851,
+        "ci_lower": 20044.2498786305,
+        "ci_upper": 21128.228371550453,
+        "sample_size": 600
+      },
+      "overhead": {
+        "mean": 3.0517578125e-07,
+        "std": 0.0,
+        "median": 3.0517578125e-07,
+        "ci_lower": 3.0517578125e-07,
+        "ci_upper": 3.0517578125e-07,
+        "sample_size": 600
+      },
+      "protocol_config": {
+        "overhead_bytes": 8,
+        "latency_base_ms": 1.5,
+        "reliability": 0.99,
+        "throughput_factor": 0.9,
+        "source": "AMQP 0.9.1, RabbitMQ study 2022"
+      }
+    },
+    "XMPP": {
+      "latency": {
+        "mean": 0.4683595011790044,
+        "std": 0.11599035314996252,
+        "median": 0.46250919382460864,
+        "ci_lower": 0.45905971963107545,
+        "ci_upper": 0.4776592827269333,
+        "sample_size": 600
+      },
+      "success_rate": {
+        "mean": 0.8929,
+        "std": 0.05768711298902335,
+        "median": 0.9,
+        "ci_lower": 0.8882748089012626,
+        "ci_upper": 0.8975251910987374,
+        "sample_size": 600
+      },
+      "throughput": {
+        "mean": 12993.26783685456,
+        "std": 4320.712575463996,
+        "median": 12111.10983143024,
+        "ci_lower": 12646.84520779976,
+        "ci_upper": 13339.69046590936,
+        "sample_size": 600
+      },
+      "overhead": {
+        "mean": 1.9073486328125e-06,
+        "std": 0.0,
+        "median": 1.9073486328125e-06,
+        "ci_lower": 1.9073486328125e-06,
+        "ci_upper": 1.9073486328125e-06,
+        "sample_size": 600
+      },
+      "protocol_config": {
+        "overhead_bytes": 50,
+        "latency_base_ms": 3.0,
+        "reliability": 0.94,
+        "throughput_factor": 0.6,
+        "source": "RFC 6120, ejabberd analysis 2021"
+      }
+    },
+    "WebSocket": {
+      "latency": {
+        "mean": 0.46610255448348464,
+        "std": 0.11597507824629301,
+        "median": 0.4602330705851293,
+        "ci_lower": 0.45680399763453655,
+        "ci_upper": 0.47540111133243274,
+        "sample_size": 600
+      },
+      "success_rate": {
+        "mean": 0.9118666666666667,
+        "std": 0.056087061666360856,
+        "median": 0.92,
+        "ci_lower": 0.9073697632001516,
+        "ci_upper": 0.9163635701331818,
+        "sample_size": 600
+      },
+      "throughput": {
+        "mean": 21127.948420387347,
+        "std": 7054.296709247173,
+        "median": 19778.371141951073,
+        "ci_lower": 20562.354674108683,
+        "ci_upper": 21693.54216666601,
+        "sample_size": 600
+      },
+      "overhead": {
+        "mean": 2.288818359375e-07,
+        "std": 0.0,
+        "median": 2.288818359375e-07,
+        "ci_lower": 2.288818359375e-07,
+        "ci_upper": 2.288818359375e-07,
+        "sample_size": 600
+      },
+      "protocol_config": {
+        "overhead_bytes": 6,
+        "latency_base_ms": 1.2,
+        "reliability": 0.96,
+        "throughput_factor": 0.95,
+        "source": "RFC 6455, Chrome metrics 2022"
+      }
+    },
+    "gRPC": {
+      "latency": {
+        "mean": 0.4668549468484114,
+        "std": 0.11598017824266262,
+        "median": 0.4609918541590154,
+        "ci_lower": 0.45755598109604295,
+        "ci_upper": 0.4761539126007798,
+        "sample_size": 600
+      },
+      "success_rate": {
+        "mean": 0.9206333333333333,
+        "std": 0.05419557937318209,
+        "median": 0.92,
+        "ci_lower": 0.9162880836177607,
+        "ci_upper": 0.9249785830489059,
+        "sample_size": 600
+      },
+      "throughput": {
+        "mean": 24648.347447965876,
+        "std": 8193.233067196425,
+        "median": 23146.905096864088,
+        "ci_lower": 23991.43697543992,
+        "ci_upper": 25305.257920491833,
+        "sample_size": 600
+      },
+      "overhead": {
+        "mean": 9.5367431640625e-07,
+        "std": 0.0,
+        "median": 9.5367431640625e-07,
+        "ci_lower": 9.5367431640625e-07,
+        "ci_upper": 9.5367431640625e-07,
+        "sample_size": 600
+      },
+      "protocol_config": {
+        "overhead_bytes": 25,
+        "latency_base_ms": 1.8,
+        "reliability": 0.97,
+        "throughput_factor": 1.1,
+        "source": "gRPC guide, Google Cloud 2022"
+      }
+    },
+    "CoAP": {
+      "latency": {
+        "mean": 0.4656011486190807,
+        "std": 0.11597173144020054,
+        "median": 0.45972740152124936,
+        "ci_lower": 0.45630286010766846,
+        "ci_upper": 0.47489943713049293,
+        "sample_size": 600
+      },
+      "success_rate": {
+        "mean": 0.8440000000000001,
+        "std": 0.06394906153169601,
+        "median": 0.84,
+        "ci_lower": 0.8388727434110754,
+        "ci_upper": 0.8491272565889247,
+        "sample_size": 600
+      },
+      "throughput": {
+        "mean": 8242.845401653247,
+        "std": 2775.277110552907,
+        "median": 7656.497757538073,
+        "ci_lower": 8020.331458362285,
+        "ci_upper": 8465.359344944209,
+        "sample_size": 600
+      },
+      "overhead": {
+        "mean": 1.52587890625e-07,
+        "std": 0.0,
+        "median": 1.52587890625e-07,
+        "ci_lower": 1.52587890625e-07,
+        "ci_upper": 1.52587890625e-07,
+        "sample_size": 600
+      },
+      "protocol_config": {
+        "overhead_bytes": 4,
+        "latency_base_ms": 0.8,
+        "reliability": 0.89,
+        "throughput_factor": 0.4,
+        "source": "RFC 7252, Contiki-NG 2021"
+      }
+    },
+    "Apache Kafka": {
+      "latency": {
+        "mean": 0.47462645417835214,
+        "std": 0.11603270865622156,
+        "median": 0.4688294446710888,
+        "ci_lower": 0.46532327668459783,
+        "ci_upper": 0.48392963167210645,
+        "sample_size": 600
+      },
+      "success_rate": {
+        "mean": 0.9443,
+        "std": 0.04884827109853045,
+        "median": 0.96,
+        "ci_lower": 0.9403834824804524,
+        "ci_upper": 0.9482165175195476,
+        "sample_size": 600
+      },
+      "throughput": {
+        "mean": 33783.65572757672,
+        "std": 10790.317298934238,
+        "median": 32028.7533930717,
+        "ci_lower": 32918.518317544105,
+        "ci_upper": 34648.79313760933,
+        "sample_size": 600
+      },
+      "overhead": {
+        "mean": 1.52587890625e-06,
+        "std": 0.0,
+        "median": 1.52587890625e-06,
+        "ci_lower": 1.52587890625e-06,
+        "ci_upper": 1.52587890625e-06,
+        "sample_size": 600
+      },
+      "protocol_config": {
+        "overhead_bytes": 40,
+        "latency_base_ms": 8.0,
+        "reliability": 0.995,
+        "throughput_factor": 1.5,
+        "source": "Kafka docs, LinkedIn 2022"
+      }
+    }
+  },
+  "statistical_tests": {
+    "latencies": {
+      "anova": {
+        "f_statistic": 0.39052209718530007,
+        "p_value": 0.9084461345090159,
+        "significant": false,
+        "protocols": [
+          "HTTP/HTTPS",
+          "MQTT",
+          "AMQP",
+          "XMPP",
+          "WebSocket",
+          "gRPC",
+          "CoAP",
+          "Apache Kafka"
+        ]
+      },
+      "pairwise": {
+        "HTTP/HTTPS_vs_MQTT": {
+          "t_statistic": 0.18770656939976904,
+          "p_value": 0.8511384667503271,
+          "significant_bonferroni": false,
+          "cohens_d": 0.01083724383716178
+        },
+        "HTTP/HTTPS_vs_AMQP": {
+          "t_statistic": 0.09410170863102196,
+          "p_value": 0.9250440986336701,
+          "significant_bonferroni": false,
+          "cohens_d": 0.005432964680932427
+        },
+        "HTTP/HTTPS_vs_XMPP": {
+          "t_statistic": -0.18677977226944967,
+          "p_value": 0.851864931709448,
+          "significant_bonferroni": false,
+          "cohens_d": -0.010783735179894378
+        },
+        "HTTP/HTTPS_vs_WebSocket": {
+          "t_statistic": 0.15026474987376243,
+          "p_value": 0.8805810373307237,
+          "significant_bonferroni": false,
+          "cohens_d": 0.008675539378932852
+        },
+        "HTTP/HTTPS_vs_gRPC": {
+          "t_statistic": 0.03790017316853913,
+          "p_value": 0.9697735893581552,
+          "significant_bonferroni": false,
+          "cohens_d": 0.0021881675181189505
+        },
+        "HTTP/HTTPS_vs_CoAP": {
+          "t_statistic": 0.22514892816035142,
+          "p_value": 0.8219018172617115,
+          "significant_bonferroni": false,
+          "cohens_d": 0.012998979428113462
+        },
+        "HTTP/HTTPS_vs_Apache Kafka": {
+          "t_statistic": -1.12243216124125,
+          "p_value": 0.2619036385553174,
+          "significant_bonferroni": false,
+          "cohens_d": -0.06480365104397293
+        },
+        "MQTT_vs_AMQP": {
+          "t_statistic": -0.093605192339373,
+          "p_value": 0.9254384366128602,
+          "significant_bonferroni": false,
+          "cohens_d": -0.00540429829946837
+        },
+        "MQTT_vs_XMPP": {
+          "t_statistic": -0.37448751477575704,
+          "p_value": 0.7081079193204456,
+          "significant_bonferroni": false,
+          "cohens_d": -0.021621046746393726
+        },
+        "MQTT_vs_WebSocket": {
+          "t_statistic": -0.03744195361913814,
+          "p_value": 0.9701388598840504,
+          "significant_bonferroni": false,
+          "cohens_d": -0.0021617122000994887
+        },
+        "MQTT_vs_gRPC": {
+          "t_statistic": -0.14980687084919148,
+          "p_value": 0.8809422042771591,
+          "significant_bonferroni": false,
+          "cohens_d": -0.008649103721123621
+        },
+        "MQTT_vs_CoAP": {
+          "t_statistic": 0.03744249388032788,
+          "p_value": 0.9701384292101771,
+          "significant_bonferroni": false,
+          "cohens_d": 0.0021617433920938216
+        },
+        "MQTT_vs_Apache Kafka": {
+          "t_statistic": -1.3101428130402488,
+          "p_value": 0.1903986727058862,
+          "significant_bonferroni": false,
+          "cohens_d": -0.07564113057856413
+        },
+        "AMQP_vs_XMPP": {
+          "t_statistic": -0.2808823988703606,
+          "p_value": 0.7788491016660691,
+          "significant_bonferroni": false,
+          "cohens_d": -0.016216752859843055
+        },
+        "AMQP_vs_WebSocket": {
+          "t_statistic": 0.05616323944955431,
+          "p_value": 0.9552211306941335,
+          "significant_bonferroni": false,
+          "cohens_d": 0.0032425861414761593
+        },
+        "AMQP_vs_gRPC": {
+          "t_statistic": -0.05620170644689632,
+          "p_value": 0.9551904933066138,
+          "significant_bonferroni": false,
+          "cohens_d": -0.0032448070346031924
+        },
+        "AMQP_vs_CoAP": {
+          "t_statistic": 0.13104768498127226,
+          "p_value": 0.8957595880058835,
+          "significant_bonferroni": false,
+          "cohens_d": 0.007566041620061482
+        },
+        "AMQP_vs_Apache Kafka": {
+          "t_statistic": -1.2165378980858503,
+          "p_value": 0.22401970531375526,
+          "significant_bonferroni": false,
+          "cohens_d": -0.07023684829392472
+        },
+        "XMPP_vs_WebSocket": {
+          "t_statistic": 0.3370455946482487,
+          "p_value": 0.7361415662227297,
+          "significant_bonferroni": false,
+          "cohens_d": 0.019459336479934385
+        },
+        "XMPP_vs_gRPC": {
+          "t_statistic": 0.22468065449375485,
+          "p_value": 0.8222660302867466,
+          "significant_bonferroni": false,
+          "cohens_d": 0.012971943635367066
+        },
+        "XMPP_vs_CoAP": {
+          "t_statistic": 0.4119299731265559,
+          "p_value": 0.6804644423380606,
+          "significant_bonferroni": false,
+          "cohens_d": 0.023782788087189238
+        },
+        "XMPP_vs_Apache Kafka": {
+          "t_statistic": -0.9356553385820683,
+          "p_value": 0.3496392355051825,
+          "significant_bonferroni": false,
+          "cohens_d": -0.05402008615990676
+        },
+        "WebSocket_vs_gRPC": {
+          "t_statistic": -0.1123649295722756,
+          "p_value": 0.9105528854940228,
+          "significant_bonferroni": false,
+          "cohens_d": -0.006487392233602666
+        },
+        "WebSocket_vs_CoAP": {
+          "t_statistic": 0.07488444729583121,
+          "p_value": 0.9403191530905356,
+          "significant_bonferroni": false,
+          "cohens_d": 0.004323455580436449
+        },
+        "WebSocket_vs_Apache Kafka": {
+          "t_statistic": -1.2727009805801925,
+          "p_value": 0.20337110754619336,
+          "significant_bonferroni": false,
+          "cohens_d": -0.07347942537358748
+        },
+        "gRPC_vs_CoAP": {
+          "t_statistic": 0.18724935157204706,
+          "p_value": 0.8514968387234302,
+          "significant_bonferroni": false,
+          "cohens_d": 0.010810846353570425
+        },
+        "gRPC_vs_Apache Kafka": {
+          "t_statistic": -1.1603359952765433,
+          "p_value": 0.24614321215361246,
+          "significant_bonferroni": false,
+          "cohens_d": -0.06699202992233247
+        },
+        "CoAP_vs_Apache Kafka": {
+          "t_statistic": -1.3475851786343442,
+          "p_value": 0.178046629653976,
+          "significant_bonferroni": false,
+          "cohens_d": -0.07780286656404886
+        }
+      }
+    },
+    "success_rates": {
+      "anova": {
+        "f_statistic": 205.3047665006571,
+        "p_value": 2.5514888997485073e-267,
+        "significant": true,
+        "protocols": [
+          "HTTP/HTTPS",
+          "MQTT",
+          "AMQP",
+          "XMPP",
+          "WebSocket",
+          "gRPC",
+          "CoAP",
+          "Apache Kafka"
+        ]
+      },
+      "pairwise": {
+        "HTTP/HTTPS_vs_MQTT": {
+          "t_statistic": 9.044488281151166,
+          "p_value": 5.910316459963927e-19,
+          "significant_bonferroni": true,
+          "cohens_d": 0.522183774380504
+        },
+        "HTTP/HTTPS_vs_AMQP": {
+          "t_statistic": -3.005078753201863,
+          "p_value": 0.002710333931163237,
+          "significant_bonferroni": false,
+          "cohens_d": -0.1734983027097121
+        },
+        "HTTP/HTTPS_vs_XMPP": {
+          "t_statistic": 11.878305050488379,
+          "p_value": 7.656544533188495e-31,
+          "significant_bonferroni": true,
+          "cohens_d": 0.6857942618415958
+        },
+        "HTTP/HTTPS_vs_WebSocket": {
+          "t_statistic": 5.9881379211817505,
+          "p_value": 2.801864670664392e-09,
+          "significant_bonferroni": true,
+          "cohens_d": 0.345725304073889
+        },
+        "HTTP/HTTPS_vs_gRPC": {
+          "t_statistic": 3.2391259625632607,
+          "p_value": 0.0012318820758203833,
+          "significant_bonferroni": true,
+          "cohens_d": 0.1870110246425004
+        },
+        "HTTP/HTTPS_vs_CoAP": {
+          "t_statistic": 25.723583259338394,
+          "p_value": 1.5322093865955128e-116,
+          "significant_bonferroni": true,
+          "cohens_d": 1.4851517719300773
+        },
+        "HTTP/HTTPS_vs_Apache Kafka": {
+          "t_statistic": -4.714343773439945,
+          "p_value": 2.709200701217464e-06,
+          "significant_bonferroni": true,
+          "cohens_d": -0.2721827646647989
+        },
+        "MQTT_vs_AMQP": {
+          "t_statistic": -12.034244967247565,
+          "p_value": 1.431026114903389e-31,
+          "significant_bonferroni": true,
+          "cohens_d": -0.6947974571334281
+        },
+        "MQTT_vs_XMPP": {
+          "t_statistic": 2.820278062068645,
+          "p_value": 0.004877322351022149,
+          "significant_bonferroni": false,
+          "cohens_d": 0.16282882983249286
+        },
+        "MQTT_vs_WebSocket": {
+          "t_statistic": -2.9732458949419382,
+          "p_value": 0.0030056074352158694,
+          "significant_bonferroni": false,
+          "cohens_d": -0.17166043178116777
+        },
+        "MQTT_vs_gRPC": {
+          "t_statistic": -5.765275516448192,
+          "p_value": 1.0362631641643056e-08,
+          "significant_bonferroni": true,
+          "cohens_d": -0.33285833713737223
+        },
+        "MQTT_vs_CoAP": {
+          "t_statistic": 16.701478622040916,
+          "p_value": 1.8638019551758287e-56,
+          "significant_bonferroni": true,
+          "cohens_d": 0.9642603178300103
+        },
+        "MQTT_vs_Apache Kafka": {
+          "t_statistic": -13.801867950264233,
+          "p_value": 2.534770635900114e-40,
+          "significant_bonferroni": true,
+          "cohens_d": -0.7968512176404723
+        },
+        "AMQP_vs_XMPP": {
+          "t_statistic": 14.868711460626312,
+          "p_value": 5.107223951397494e-46,
+          "significant_bonferroni": true,
+          "cohens_d": 0.8584454564295475
+        },
+        "AMQP_vs_WebSocket": {
+          "t_statistic": 8.952212301011734,
+          "p_value": 1.2985448411562406e-18,
+          "significant_bonferroni": true,
+          "cohens_d": 0.5168562181831805
+        },
+        "AMQP_vs_gRPC": {
+          "t_statistic": 6.2235737459049245,
+          "p_value": 6.70710713850882e-10,
+          "significant_bonferroni": true,
+          "cohens_d": 0.3593181977519695
+        },
+        "AMQP_vs_CoAP": {
+          "t_statistic": 28.682783140962542,
+          "p_value": 3.605725667731869e-138,
+          "significant_bonferroni": true,
+          "cohens_d": 1.6560012567542384
+        },
+        "AMQP_vs_Apache Kafka": {
+          "t_statistic": -1.6838626180547913,
+          "p_value": 0.09246873071215346,
+          "significant_bonferroni": false,
+          "cohens_d": -0.09721785358122818
+        },
+        "XMPP_vs_WebSocket": {
+          "t_statistic": -5.77424222227742,
+          "p_value": 9.839834371082554e-09,
+          "significant_bonferroni": true,
+          "cohens_d": -0.3333760301397971
+        },
+        "XMPP_vs_gRPC": {
+          "t_statistic": -8.582590919574033,
+          "p_value": 2.836026954733596e-17,
+          "significant_bonferroni": true,
+          "cohens_d": -0.49551611777605054
+        },
+        "XMPP_vs_CoAP": {
+          "t_statistic": 13.907913697667526,
+          "p_value": 7.098102527218649e-41,
+          "significant_bonferroni": true,
+          "cohens_d": 0.802973771721443
+        },
+        "XMPP_vs_Apache Kafka": {
+          "t_statistic": -16.65598326076534,
+          "p_value": 3.457770468710869e-56,
+          "significant_bonferroni": true,
+          "cohens_d": -0.961633641922077
+        },
+        "WebSocket_vs_gRPC": {
+          "t_statistic": -2.75330352746074,
+          "p_value": 0.005988881354451881,
+          "significant_bonferroni": false,
+          "cohens_d": -0.15896205327402044
+        },
+        "WebSocket_vs_CoAP": {
+          "t_statistic": 19.543648567213243,
+          "p_value": 4.757620372800028e-74,
+          "significant_bonferroni": true,
+          "cohens_d": 1.1283530761228011
+        },
+        "WebSocket_vs_Apache Kafka": {
+          "t_statistic": -10.681434368558392,
+          "p_value": 1.675223503390885e-25,
+          "significant_bonferroni": true,
+          "cohens_d": -0.6166929008018509
+        },
+        "gRPC_vs_CoAP": {
+          "t_statistic": 22.393366504952894,
+          "p_value": 4.631647548208173e-93,
+          "significant_bonferroni": true,
+          "cohens_d": 1.29288161796965
+        },
+        "gRPC_vs_Apache Kafka": {
+          "t_statistic": -7.945507835579174,
+          "p_value": 4.431161636707743e-15,
+          "significant_bonferroni": true,
+          "cohens_d": -0.4587341087719918
+        },
+        "CoAP_vs_Apache Kafka": {
+          "t_statistic": -30.530600175249564,
+          "p_value": 6.660689390994921e-152,
+          "significant_bonferroni": true,
+          "cohens_d": -1.762685022970117
+        }
+      }
+    },
+    "throughputs": {
+      "anova": {
+        "f_statistic": 715.0506607706161,
+        "p_value": 0.0,
+        "significant": true,
+        "protocols": [
+          "HTTP/HTTPS",
+          "MQTT",
+          "AMQP",
+          "XMPP",
+          "WebSocket",
+          "gRPC",
+          "CoAP",
+          "Apache Kafka"
+        ]
+      },
+      "pairwise": {
+        "HTTP/HTTPS_vs_MQTT": {
+          "t_statistic": 12.91126736679477,
+          "p_value": 8.410208427207162e-36,
+          "significant_bonferroni": true,
+          "cohens_d": 0.7454323689798192
+        },
+        "HTTP/HTTPS_vs_AMQP": {
+          "t_statistic": 4.9661511034085315,
+          "p_value": 7.818506985517547e-07,
+          "significant_bonferroni": true,
+          "cohens_d": 0.2867208676389273
+        },
+        "HTTP/HTTPS_vs_XMPP": {
+          "t_statistic": 27.350785120838697,
+          "p_value": 2.2907555978925292e-128,
+          "significant_bonferroni": true,
+          "cohens_d": 1.5790983152063836
+        },
+        "HTTP/HTTPS_vs_WebSocket": {
+          "t_statistic": 3.578055611419327,
+          "p_value": 0.00035998103255159884,
+          "significant_bonferroni": true,
+          "cohens_d": 0.20657913704284
+        },
+        "HTTP/HTTPS_vs_gRPC": {
+          "t_statistic": -4.461883930655268,
+          "p_value": 8.888404626366753e-06,
+          "significant_bonferroni": true,
+          "cohens_d": -0.25760698884566846
+        },
+        "HTTP/HTTPS_vs_CoAP": {
+          "t_statistic": 44.220845872781844,
+          "p_value": 4.8559984730254044e-254,
+          "significant_bonferroni": true,
+          "cohens_d": 2.5530917268443547
+        },
+        "HTTP/HTTPS_vs_Apache Kafka": {
+          "t_statistic": -20.82040765147177,
+          "p_value": 2.0281395267167634e-82,
+          "significant_bonferroni": true,
+          "cohens_d": -1.2020667962214966
+        },
+        "MQTT_vs_AMQP": {
+          "t_statistic": -8.118095413673094,
+          "p_value": 1.1659512886599542e-15,
+          "significant_bonferroni": true,
+          "cohens_d": -0.46869845723912273
+        },
+        "MQTT_vs_XMPP": {
+          "t_statistic": 15.49903933747063,
+          "p_value": 1.6131234065432922e-49,
+          "significant_bonferroni": true,
+          "cohens_d": 0.8948374533669268
+        },
+        "MQTT_vs_WebSocket": {
+          "t_statistic": -9.364154391264462,
+          "p_value": 3.668158602492361e-20,
+          "significant_bonferroni": true,
+          "cohens_d": -0.5406397058529754
+        },
+        "MQTT_vs_gRPC": {
+          "t_statistic": -17.0743598628228,
+          "p_value": 1.131879207336832e-58,
+          "significant_bonferroni": true,
+          "cohens_d": -0.9857886263041287
+        },
+        "MQTT_vs_CoAP": {
+          "t_statistic": 35.26227784973408,
+          "p_value": 2.0215499004158653e-187,
+          "significant_bonferroni": true,
+          "cohens_d": 2.035868560878335
+        },
+        "MQTT_vs_Apache Kafka": {
+          "t_statistic": -32.218147218316034,
+          "p_value": 1.5481696765224259e-164,
+          "significant_bonferroni": true,
+          "cohens_d": -1.8601155969285754
+        },
+        "AMQP_vs_XMPP": {
+          "t_statistic": 23.182672108644404,
+          "p_value": 1.607671151135562e-98,
+          "significant_bonferroni": true,
+          "cohens_d": 1.3384521982460675
+        },
+        "AMQP_vs_WebSocket": {
+          "t_statistic": -1.3581036149156316,
+          "p_value": 0.1746865173812525,
+          "significant_bonferroni": false,
+          "cohens_d": -0.07841014876589437
+        },
+        "AMQP_vs_gRPC": {
+          "t_statistic": -9.367507289060079,
+          "p_value": 3.561221965573948e-20,
+          "significant_bonferroni": true,
+          "cohens_d": -0.5408332854974618
+        },
+        "AMQP_vs_CoAP": {
+          "t_statistic": 41.375804317899146,
+          "p_value": 4.0283416211512865e-233,
+          "significant_bonferroni": true,
+          "cohens_d": 2.3888331760876356
+        },
+        "AMQP_vs_Apache Kafka": {
+          "t_statistic": -25.388482955879986,
+          "p_value": 3.94431812042572e-114,
+          "significant_bonferroni": true,
+          "cohens_d": -1.4658047468893536
+        },
+        "XMPP_vs_WebSocket": {
+          "t_statistic": -24.087270771542556,
+          "p_value": 7.291649116508449e-105,
+          "significant_bonferroni": true,
+          "cohens_d": -1.3906792263993504
+        },
+        "XMPP_vs_gRPC": {
+          "t_statistic": -30.821462031188073,
+          "p_value": 4.476792785088481e-154,
+          "significant_bonferroni": true,
+          "cohens_d": -1.7794779400524268
+        },
+        "XMPP_vs_CoAP": {
+          "t_statistic": 22.659319398065243,
+          "p_value": 6.830950948374068e-95,
+          "significant_bonferroni": true,
+          "cohens_d": 1.308236415412668
+        },
+        "XMPP_vs_Apache Kafka": {
+          "t_statistic": -43.81384213562379,
+          "p_value": 4.576295681166143e-251,
+          "significant_bonferroni": true,
+          "cohens_d": -2.529593355123416
+        },
+        "WebSocket_vs_gRPC": {
+          "t_statistic": -7.975810130559783,
+          "p_value": 3.5115274523547227e-15,
+          "significant_bonferroni": true,
+          "cohens_d": -0.4604836125884034
+        },
+        "WebSocket_vs_CoAP": {
+          "t_statistic": 41.635215136512144,
+          "p_value": 4.8531737051900825e-235,
+          "significant_bonferroni": true,
+          "cohens_d": 2.403810266683327
+        },
+        "WebSocket_vs_Apache Kafka": {
+          "t_statistic": -24.046635059016598,
+          "p_value": 1.4113112238510148e-104,
+          "significant_bonferroni": true,
+          "cohens_d": -1.3883331224427928
+        },
+        "gRPC_vs_CoAP": {
+          "t_statistic": 46.454063083009146,
+          "p_value": 3.077110504945255e-270,
+          "significant_bonferroni": true,
+          "cohens_d": 2.682026582592719
+        },
+        "gRPC_vs_Apache Kafka": {
+          "t_statistic": -16.516186944521326,
+          "p_value": 2.2944531122774866e-55,
+          "significant_bonferroni": true,
+          "cohens_d": -0.9535624978405571
+        },
+        "CoAP_vs_Apache Kafka": {
+          "t_statistic": -56.15216145869565,
+          "p_value": 0.0,
+          "significant_bonferroni": true,
+          "cohens_d": -3.2419465533757257
+        }
+      }
+    },
+    "overheads": {
+      "anova": {
+        "f_statistic": Infinity,
+        "p_value": 0.0,
+        "significant": true,
+        "protocols": [
+          "HTTP/HTTPS",
+          "MQTT",
+          "AMQP",
+          "XMPP",
+          "WebSocket",
+          "gRPC",
+          "CoAP",
+          "Apache Kafka"
+        ]
+      },
+      "pairwise": {
+        "HTTP/HTTPS_vs_MQTT": {
+          "t_statistic": Infinity,
+          "p_value": 0.0,
+          "significant_bonferroni": true,
+          "cohens_d": 0.0
+        },
+        "HTTP/HTTPS_vs_AMQP": {
+          "t_statistic": Infinity,
+          "p_value": 0.0,
+          "significant_bonferroni": true,
+          "cohens_d": 0.0
+        },
+        "HTTP/HTTPS_vs_XMPP": {
+          "t_statistic": Infinity,
+          "p_value": 0.0,
+          "significant_bonferroni": true,
+          "cohens_d": 0.0
+        },
+        "HTTP/HTTPS_vs_WebSocket": {
+          "t_statistic": Infinity,
+          "p_value": 0.0,
+          "significant_bonferroni": true,
+          "cohens_d": 0.0
+        },
+        "HTTP/HTTPS_vs_gRPC": {
+          "t_statistic": Infinity,
+          "p_value": 0.0,
+          "significant_bonferroni": true,
+          "cohens_d": 0.0
+        },
+        "HTTP/HTTPS_vs_CoAP": {
+          "t_statistic": Infinity,
+          "p_value": 0.0,
+          "significant_bonferroni": true,
+          "cohens_d": 0.0
+        },
+        "HTTP/HTTPS_vs_Apache Kafka": {
+          "t_statistic": Infinity,
+          "p_value": 0.0,
+          "significant_bonferroni": true,
+          "cohens_d": 0.0
+        },
+        "MQTT_vs_AMQP": {
+          "t_statistic": -Infinity,
+          "p_value": 0.0,
+          "significant_bonferroni": true,
+          "cohens_d": 0.0
+        },
+        "MQTT_vs_XMPP": {
+          "t_statistic": -Infinity,
+          "p_value": 0.0,
+          "significant_bonferroni": true,
+          "cohens_d": 0.0
+        },
+        "MQTT_vs_WebSocket": {
+          "t_statistic": -Infinity,
+          "p_value": 0.0,
+          "significant_bonferroni": true,
+          "cohens_d": 0.0
+        },
+        "MQTT_vs_gRPC": {
+          "t_statistic": -Infinity,
+          "p_value": 0.0,
+          "significant_bonferroni": true,
+          "cohens_d": 0.0
+        },
+        "MQTT_vs_CoAP": {
+          "t_statistic": Infinity,
+          "p_value": 0.0,
+          "significant_bonferroni": true,
+          "cohens_d": 0.0
+        },
+        "MQTT_vs_Apache Kafka": {
+          "t_statistic": -Infinity,
+          "p_value": 0.0,
+          "significant_bonferroni": true,
+          "cohens_d": 0.0
+        },
+        "AMQP_vs_XMPP": {
+          "t_statistic": -Infinity,
+          "p_value": 0.0,
+          "significant_bonferroni": true,
+          "cohens_d": 0.0
+        },
+        "AMQP_vs_WebSocket": {
+          "t_statistic": Infinity,
+          "p_value": 0.0,
+          "significant_bonferroni": true,
+          "cohens_d": 0.0
+        },
+        "AMQP_vs_gRPC": {
+          "t_statistic": -Infinity,
+          "p_value": 0.0,
+          "significant_bonferroni": true,
+          "cohens_d": 0.0
+        },
+        "AMQP_vs_CoAP": {
+          "t_statistic": Infinity,
+          "p_value": 0.0,
+          "significant_bonferroni": true,
+          "cohens_d": 0.0
+        },
+        "AMQP_vs_Apache Kafka": {
+          "t_statistic": -Infinity,
+          "p_value": 0.0,
+          "significant_bonferroni": true,
+          "cohens_d": 0.0
+        },
+        "XMPP_vs_WebSocket": {
+          "t_statistic": Infinity,
+          "p_value": 0.0,
+          "significant_bonferroni": true,
+          "cohens_d": 0.0
+        },
+        "XMPP_vs_gRPC": {
+          "t_statistic": Infinity,
+          "p_value": 0.0,
+          "significant_bonferroni": true,
+          "cohens_d": 0.0
+        },
+        "XMPP_vs_CoAP": {
+          "t_statistic": Infinity,
+          "p_value": 0.0,
+          "significant_bonferroni": true,
+          "cohens_d": 0.0
+        },
+        "XMPP_vs_Apache Kafka": {
+          "t_statistic": Infinity,
+          "p_value": 0.0,
+          "significant_bonferroni": true,
+          "cohens_d": 0.0
+        },
+        "WebSocket_vs_gRPC": {
+          "t_statistic": -Infinity,
+          "p_value": 0.0,
+          "significant_bonferroni": true,
+          "cohens_d": 0.0
+        },
+        "WebSocket_vs_CoAP": {
+          "t_statistic": Infinity,
+          "p_value": 0.0,
+          "significant_bonferroni": true,
+          "cohens_d": 0.0
+        },
+        "WebSocket_vs_Apache Kafka": {
+          "t_statistic": -Infinity,
+          "p_value": 0.0,
+          "significant_bonferroni": true,
+          "cohens_d": 0.0
+        },
+        "gRPC_vs_CoAP": {
+          "t_statistic": Infinity,
+          "p_value": 0.0,
+          "significant_bonferroni": true,
+          "cohens_d": 0.0
+        },
+        "gRPC_vs_Apache Kafka": {
+          "t_statistic": -Infinity,
+          "p_value": 0.0,
+          "significant_bonferroni": true,
+          "cohens_d": 0.0
+        },
+        "CoAP_vs_Apache Kafka": {
+          "t_statistic": -Infinity,
+          "p_value": 0.0,
+          "significant_bonferroni": true,
+          "cohens_d": 0.0
+        }
+      }
+    }
+  },
+  "experimental_parameters": {
+    "num_clients": 50,
+    "model_size_mb": 25.0,
+    "num_replications": 30,
+    "num_rounds": 20,
+    "random_seed": 42
+  }
+}

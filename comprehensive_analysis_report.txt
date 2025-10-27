@@ -1,0 +1,95 @@
+====================================================================================================
+📊 COMPREHENSIVE PROTOCOL ANALYSIS REPORT
+📅 Generated: 2025-09-30 06:21:42
+📂 Output Directory: /home/mokoraden/federated_learning/experiments/SIMULASI_EXPERIMENT/PerbandinganProtokol
+====================================================================================================
+
+🎯 EXECUTIVE SUMMARY
+--------------------------------------------------
+⚡ Best Latency: CoAP (1151.2ms)
+🛡️  Best Reliability: HTTP/HTTPS (41.7%)
+🗜️  Best Efficiency: CoAP (2.0% overhead)
+
+📋 DETAILED PERFORMANCE ANALYSIS
+--------------------------------------------------
+
+🔍 HTTP/HTTPS:
+   • Average Latency: 1529.2ms
+   • Success Rate: 41.7%
+   • Protocol Overhead: 13.0%
+   • Total Data Sent: 3.01 GB
+   • Failed Transmissions: 97
+   • Successful Rounds: 5/12
+
+🔍 MQTT:
+   • Average Latency: 1192.1ms
+   • Success Rate: 41.7%
+   • Protocol Overhead: 2.9%
+   • Total Data Sent: 2.36 GB
+   • Failed Transmissions: 108
+   • Successful Rounds: 5/12
+
+🔍 AMQP:
+   • Average Latency: 1312.5ms
+   • Success Rate: 41.7%
+   • Protocol Overhead: 7.4%
+   • Total Data Sent: 2.76 GB
+   • Failed Transmissions: 82
+   • Successful Rounds: 5/12
+
+🔍 XMPP:
+   • Average Latency: 1365.4ms
+   • Success Rate: 41.7%
+   • Protocol Overhead: 20.0%
+   • Total Data Sent: 2.72 GB
+   • Failed Transmissions: 102
+   • Successful Rounds: 5/12
+
+🔍 WebSocket:
+   • Average Latency: 1236.5ms
+   • Success Rate: 41.7%
+   • Protocol Overhead: 4.8%
+   • Total Data Sent: 2.43 GB
+   • Failed Transmissions: 104
+   • Successful Rounds: 5/12
+
+🔍 gRPC:
+   • Average Latency: 1258.3ms
+   • Success Rate: 41.7%
+   • Protocol Overhead: 5.7%
+   • Total Data Sent: 2.69 GB
+   • Failed Transmissions: 85
+   • Successful Rounds: 5/12
+
+🔍 CoAP:
+   • Average Latency: 1151.2ms
+   • Success Rate: 25.0%
+   • Protocol Overhead: 2.0%
+   • Total Data Sent: 2.30 GB
+   • Failed Transmissions: 115
+   • Successful Rounds: 3/12
+
+🔍 Apache Kafka:
+   • Average Latency: 1446.7ms
+   • Success Rate: 41.7%
+   • Protocol Overhead: 3.8%
+   • Total Data Sent: 2.83 GB
+   • Failed Transmissions: 75
+   • Successful Rounds: 5/12
+
+💡 PROTOCOL SELECTION GUIDE
+--------------------------------------------------
+🏃 For Real-time Applications: CoAP, MQTT
+🔒 For High-Reliability Systems: Apache Kafka, AMQP
+📱 For IoT/Edge Computing: CoAP, MQTT
+🌐 For Web-based Systems: WebSocket, HTTP/HTTPS
+📡 For Large-scale Deployments: Apache Kafka, gRPC
+⚖️  For Balanced Performance: gRPC, WebSocket
+
+🔬 TECHNICAL INSIGHTS
+--------------------------------------------------
+• Lightweight protocols (CoAP, MQTT) excel in low-latency scenarios
+• Message queue protocols (Kafka, AMQP) provide superior reliability
+• Binary protocols (gRPC) offer good balance of speed and features
+• Text-based protocols (HTTP, XMPP) have higher overhead but better debugging
+• Network conditions significantly impact all protocols

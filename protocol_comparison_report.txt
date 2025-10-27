@@ -1,0 +1,26 @@
+================================================================================
+📋 DETAILED PROTOCOL ANALYSIS REPORT
+📅 Generated: 2025-09-30 06:21:19
+================================================================================
+
+🏆 PROTOCOL RANKING (Overall Performance):
+ 1. CoAP            (Score: 11.629, Latency: 1.151s, Success: 25.0%, Overhead: 2.0%)
+ 2. MQTT            (Score: 8.936, Latency: 1.192s, Success: 41.7%, Overhead: 2.9%)
+ 3. Apache Kafka    (Score: 7.246, Latency: 1.447s, Success: 41.7%, Overhead: 3.8%)
+ 4. WebSocket       (Score: 6.191, Latency: 1.236s, Success: 41.7%, Overhead: 4.8%)
+ 5. gRPC            (Score: 5.406, Latency: 1.258s, Success: 41.7%, Overhead: 5.7%)
+ 6. AMQP            (Score: 4.356, Latency: 1.312s, Success: 41.7%, Overhead: 7.4%)
+ 7. HTTP/HTTPS      (Score: 2.729, Latency: 1.529s, Success: 41.7%, Overhead: 13.0%)
+ 8. XMPP            (Score: 1.969, Latency: 1.365s, Success: 41.7%, Overhead: 20.0%)
+
+🎯 CATEGORY WINNERS:
+⚡ Lowest Latency: CoAP (1.151s)
+🛡️  Highest Reliability: HTTP/HTTPS (41.7%)
+🗜️  Most Efficient: CoAP (2.0% overhead)
+
+💡 USE CASE RECOMMENDATIONS:
+🏃 Real-time FL (low latency): CoAP, MQTT, WebSocket
+🔒 High reliability FL: Apache Kafka, AMQP, gRPC
+📱 IoT/Edge FL: CoAP, MQTT
+🌐 Web-based FL: HTTP/HTTPS, WebSocket
+📡 Large-scale FL: Apache Kafka, MQTT, gRPC

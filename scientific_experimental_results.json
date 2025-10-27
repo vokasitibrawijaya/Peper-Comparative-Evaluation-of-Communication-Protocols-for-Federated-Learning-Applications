@@ -1,0 +1,497 @@
+{
+  "experimental_results": {
+    "HTTP/HTTPS": {
+      "protocol_name": "HTTP/HTTPS",
+      "protocol_characteristics": {
+        "name": "HTTP/HTTPS",
+        "overhead_bytes_fixed": 200,
+        "overhead_ratio_variable": 0.05,
+        "latency_base_ms": 2.0,
+        "latency_network_factor": 1.2,
+        "reliability_baseline": 0.98,
+        "reliability_degradation_factor": 0.15,
+        "throughput_mbps": 100,
+        "cpu_overhead_factor": 1.1,
+        "memory_overhead_kb": 8,
+        "qos_levels": 1,
+        "connection_type": "connectionless",
+        "security_overhead_factor": 1.3,
+        "parameter_source": "RFC 7540, Google HTTP/2 performance study 2021"
+      },
+      "aggregated_statistics": {
+        "latency": {
+          "mean": 6.443926111746328,
+          "std": 1.7918804729320224,
+          "median": 6.2752345407976335,
+          "confidence_interval": [
+            6.300138282539978,
+            6.587713940952678
+          ],
+          "sample_size": 600
+        },
+        "success_rate": {
+          "mean": 0.9896666666666666,
+          "std": 0.026151269355212742,
+          "median": 1.0,
+          "confidence_interval": [
+            0.9875681816904763,
+            0.9917651516428568
+          ],
+          "sample_size": 600
+        },
+        "throughput": {
+          "mean": 1767.4305528967952,
+          "std": 539.3851354470161,
+          "median": 1670.9755355705427,
+          "confidence_interval": [
+            1724.1480801517273,
+            1810.7130256418632
+          ],
+          "sample_size": 600
+        },
+        "overhead": {
+          "mean": 131092000.0,
+          "std": 0.0,
+          "median": 131092000.0,
+          "confidence_interval": [
+            131092000.0,
+            131092000.0
+          ],
+          "sample_size": 600
+        }
+      }
+    },
+    "MQTT": {
+      "protocol_name": "MQTT",
+      "protocol_characteristics": {
+        "name": "MQTT",
+        "overhead_bytes_fixed": 5,
+        "overhead_ratio_variable": 0.01,
+        "latency_base_ms": 1.0,
+        "latency_network_factor": 0.8,
+        "reliability_baseline": 0.95,
+        "reliability_degradation_factor": 0.1,
+        "throughput_mbps": 50,
+        "cpu_overhead_factor": 0.8,
+        "memory_overhead_kb": 2,
+        "qos_levels": 3,
+        "connection_type": "persistent",
+        "security_overhead_factor": 1.1,
+        "parameter_source": "MQTT 5.0 Specification, Eclipse Mosquitto benchmarks 2022"
+      },
+      "aggregated_statistics": {
+        "latency": {
+          "mean": 8.256420252677618,
+          "std": 2.2980549192830106,
+          "median": 8.04024502889113,
+          "confidence_interval": [
+            8.072014912459808,
+            8.440825592895427
+          ],
+          "sample_size": 600
+        },
+        "success_rate": {
+          "mean": 0.9852333333333333,
+          "std": 0.026380780040695457,
+          "median": 1.0,
+          "confidence_interval": [
+            0.983116431479598,
+            0.9873502351870685
+          ],
+          "sample_size": 600
+        },
+        "throughput": {
+          "mean": 1379.67973750707,
+          "std": 421.5874383900867,
+          "median": 1304.1596039021977,
+          "confidence_interval": [
+            1345.8498345071303,
+            1413.5096405070099
+          ],
+          "sample_size": 600
+        },
+        "overhead": {
+          "mean": 26214900.0,
+          "std": 0.0,
+          "median": 26214900.0,
+          "confidence_interval": [
+            26214900.0,
+            26214900.0
+          ],
+          "sample_size": 600
+        }
+      }
+    },
+    "AMQP": {
+      "protocol_name": "AMQP",
+      "protocol_characteristics": {
+        "name": "AMQP",
+        "overhead_bytes_fixed": 8,
+        "overhead_ratio_variable": 0.03,
+        "latency_base_ms": 1.5,
+        "latency_network_factor": 1.0,
+        "reliability_baseline": 0.99,
+        "reliability_degradation_factor": 0.05,
+        "throughput_mbps": 80,
+        "cpu_overhead_factor": 1.2,
+        "memory_overhead_kb": 6,
+        "qos_levels": 2,
+        "connection_type": "persistent",
+        "security_overhead_factor": 1.2,
+        "parameter_source": "AMQP 0.9.1 Spec, RabbitMQ performance study 2022"
+      },
+      "aggregated_statistics": {
+        "latency": {
+          "mean": 6.582278587603555,
+          "std": 1.8309522558140512,
+          "median": 6.409955361333275,
+          "confidence_interval": [
+            6.435355478489479,
+            6.729201696717631
+          ],
+          "sample_size": 600
+        },
+        "success_rate": {
+          "mean": 1.0,
+          "std": 0.0,
+          "median": 1.0,
+          "confidence_interval": [
+            1.0,
+            1.0
+          ],
+          "sample_size": 600
+        },
+        "throughput": {
+          "mean": 1730.3876164554642,
+          "std": 528.313514191716,
+          "median": 1635.8558808028006,
+          "confidence_interval": [
+            1687.9935759524697,
+            1772.7816569584588
+          ],
+          "sample_size": 600
+        },
+        "overhead": {
+          "mean": 78644000.0,
+          "std": 0.0,
+          "median": 78644000.0,
+          "confidence_interval": [
+            78644000.0,
+            78644000.0
+          ],
+          "sample_size": 600
+        }
+      }
+    },
+    "XMPP": {
+      "protocol_name": "XMPP",
+      "protocol_characteristics": {
+        "name": "XMPP",
+        "overhead_bytes_fixed": 50,
+        "overhead_ratio_variable": 0.2,
+        "latency_base_ms": 3.0,
+        "latency_network_factor": 1.3,
+        "reliability_baseline": 0.94,
+        "reliability_degradation_factor": 0.12,
+        "throughput_mbps": 40,
+        "cpu_overhead_factor": 1.8,
+        "memory_overhead_kb": 12,
+        "qos_levels": 1,
+        "connection_type": "persistent",
+        "security_overhead_factor": 1.4,
+        "parameter_source": "RFC 6120, ejabberd performance analysis 2021"
+      },
+      "aggregated_statistics": {
+        "latency": {
+          "mean": 19.934968286409614,
+          "std": 5.546154092218424,
+          "median": 19.413057524520973,
+          "confidence_interval": [
+            19.489922163406153,
+            20.380014409413075
+          ],
+          "sample_size": 600
+        },
+        "success_rate": {
+          "mean": 0.9717333333333332,
+          "std": 0.033778625720350966,
+          "median": 0.98,
+          "confidence_interval": [
+            0.9690227980385567,
+            0.9744438686281097
+          ],
+          "sample_size": 600
+        },
+        "throughput": {
+          "mean": 571.3711855605782,
+          "std": 174.48920881891914,
+          "median": 540.1396994901937,
+          "confidence_interval": [
+            557.3694566869148,
+            585.3729144342416
+          ],
+          "sample_size": 600
+        },
+        "overhead": {
+          "mean": 524293000.0,
+          "std": 0.0,
+          "median": 524293000.0,
+          "confidence_interval": [
+            524293000.0,
+            524293000.0
+          ],
+          "sample_size": 600
+        }
+      }
+    },
+    "WebSocket": {
+      "protocol_name": "WebSocket",
+      "protocol_characteristics": {
+        "name": "WebSocket",
+        "overhead_bytes_fixed": 6,
+        "overhead_ratio_variable": 0.02,
+        "latency_base_ms": 1.2,
+        "latency_network_factor": 0.9,
+        "reliability_baseline": 0.96,
+        "reliability_degradation_factor": 0.08,
+        "throughput_mbps": 90,
+        "cpu_overhead_factor": 0.9,
+        "memory_overhead_kb": 4,
+        "qos_levels": 1,
+        "connection_type": "persistent",
+        "security_overhead_factor": 1.15,
+        "parameter_source": "RFC 6455, Chrome WebSocket performance metrics 2022"
+      },
+      "aggregated_statistics": {
+        "latency": {
+          "mean": 5.213941728826654,
+          "std": 1.4505326353052193,
+          "median": 5.0774380802464,
+          "confidence_interval": [
+            5.097545048370493,
+            5.330338409282816
+          ],
+          "sample_size": 600
+        },
+        "success_rate": {
+          "mean": 0.9929,
+          "std": 0.017270109051962204,
+          "median": 1.0,
+          "confidence_interval": [
+            0.9915141757063319,
+            0.9942858242936681
+          ],
+          "sample_size": 600
+        },
+        "throughput": {
+          "mean": 2184.564534963353,
+          "std": 667.1059762062722,
+          "median": 2065.1680856927146,
+          "confidence_interval": [
+            2131.0332187744284,
+            2238.095851152277
+          ],
+          "sample_size": 600
+        },
+        "overhead": {
+          "mean": 52429400.0,
+          "std": 0.0,
+          "median": 52429400.0,
+          "confidence_interval": [
+            52429400.0,
+            52429400.0
+          ],
+          "sample_size": 600
+        }
+      }
+    },
+    "gRPC": {
+      "protocol_name": "gRPC",
+      "protocol_characteristics": {
+        "name": "gRPC",
+        "overhead_bytes_fixed": 25,
+        "overhead_ratio_variable": 0.04,
+        "latency_base_ms": 1.8,
+        "latency_network_factor": 1.0,
+        "reliability_baseline": 0.97,
+        "reliability_degradation_factor": 0.07,
+        "throughput_mbps": 120,
+        "cpu_overhead_factor": 1.0,
+        "memory_overhead_kb": 5,
+        "qos_levels": 2,
+        "connection_type": "persistent",
+        "security_overhead_factor": 1.25,
+        "parameter_source": "gRPC performance guide, Google Cloud benchmarks 2022"
+      },
+      "aggregated_statistics": {
+        "latency": {
+          "mean": 4.433910415427393,
+          "std": 1.2325197390413583,
+          "median": 4.317844842636594,
+          "confidence_interval": [
+            4.335007982811031,
+            4.532812848043755
+          ],
+          "sample_size": 600
+        },
+        "success_rate": {
+          "mean": 0.9970666666666667,
+          "std": 0.010298651475908013,
+          "median": 1.0,
+          "confidence_interval": [
+            0.9962402606859985,
+            0.9978930726473348
+          ],
+          "sample_size": 600
+        },
+        "throughput": {
+          "mean": 2568.487975071992,
+          "std": 783.4838593939811,
+          "median": 2428.4716164642405,
+          "confidence_interval": [
+            2505.618020818772,
+            2631.357929325212
+          ],
+          "sample_size": 600
+        },
+        "overhead": {
+          "mean": 104860100.0,
+          "std": 0.0,
+          "median": 104860100.0,
+          "confidence_interval": [
+            104860100.0,
+            104860100.0
+          ],
+          "sample_size": 600
+        }
+      }
+    },
+    "CoAP": {
+      "protocol_name": "CoAP",
+      "protocol_characteristics": {
+        "name": "CoAP",
+        "overhead_bytes_fixed": 4,
+        "overhead_ratio_variable": 0.008,
+        "latency_base_ms": 0.8,
+        "latency_network_factor": 0.7,
+        "reliability_baseline": 0.89,
+        "reliability_degradation_factor": 0.18,
+        "throughput_mbps": 25,
+        "cpu_overhead_factor": 0.6,
+        "memory_overhead_kb": 1,
+        "qos_levels": 2,
+        "connection_type": "connectionless",
+        "security_overhead_factor": 1.05,
+        "parameter_source": "RFC 7252, Contiki-NG CoAP benchmarks 2021"
+      },
+      "aggregated_statistics": {
+        "latency": {
+          "mean": 14.415907993348531,
+          "std": 4.013587379895864,
+          "median": 14.038442404459616,
+          "confidence_interval": [
+            14.0938413011763,
+            14.737974685520763
+          ],
+          "sample_size": 600
+        },
+        "success_rate": {
+          "mean": 0.9113999999999999,
+          "std": 0.05240267168761531,
+          "median": 0.92,
+          "confidence_interval": [
+            0.9071949949673561,
+            0.9156050050326436
+          ],
+          "sample_size": 600
+        },
+        "throughput": {
+          "mean": 790.2255854417514,
+          "std": 241.56005581978175,
+          "median": 746.9320524318143,
+          "confidence_interval": [
+            770.8418170632402,
+            809.6093538202625
+          ],
+          "sample_size": 600
+        },
+        "overhead": {
+          "mean": 20971900.0,
+          "std": 0.0,
+          "median": 20971900.0,
+          "confidence_interval": [
+            20971900.0,
+            20971900.0
+          ],
+          "sample_size": 600
+        }
+      }
+    },
+    "Apache Kafka": {
+      "protocol_name": "Apache Kafka",
+      "protocol_characteristics": {
+        "name": "Apache Kafka",
+        "overhead_bytes_fixed": 40,
+        "overhead_ratio_variable": 0.02,
+        "latency_base_ms": 8.0,
+        "latency_network_factor": 1.1,
+        "reliability_baseline": 0.995,
+        "reliability_degradation_factor": 0.02,
+        "throughput_mbps": 200,
+        "cpu_overhead_factor": 1.3,
+        "memory_overhead_kb": 20,
+        "qos_levels": 3,
+        "connection_type": "persistent",
+        "security_overhead_factor": 1.3,
+        "parameter_source": "Apache Kafka documentation, LinkedIn Kafka benchmarks 2022"
+      },
+      "aggregated_statistics": {
+        "latency": {
+          "mean": 2.906452275214614,
+          "std": 0.7982105075962167,
+          "median": 2.8300504217500158,
+          "confidence_interval": [
+            2.8424005943850563,
+            2.9705039560441717
+          ],
+          "sample_size": 600
+        },
+        "success_rate": {
+          "mean": 1.0,
+          "std": 0.0,
+          "median": 1.0,
+          "confidence_interval": [
+            1.0,
+            1.0
+          ],
+          "sample_size": 600
+        },
+        "throughput": {
+          "mean": 3909.58500144606,
+          "std": 1173.3936510478202,
+          "median": 3705.154189011944,
+          "confidence_interval": [
+            3815.4270883277773,
+            4003.7429145643423
+          ],
+          "sample_size": 600
+        },
+        "overhead": {
+          "mean": 52432800.0,
+          "std": 0.0,
+          "median": 52432800.0,
+          "confidence_interval": [
+            52432800.0,
+            52432800.0
+          ],
+          "sample_size": 600
+        }
+      }
+    }
+  },
+  "statistical_tests": {
+    "latencies": {
+      "anova": {
+        "f_statistic": 2525.6786604572408,
+        "p_value": 0.0,
+        "significant": 
